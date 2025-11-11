@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Mutiplex",
+      "request": "launch",
+      "mainClass": "semaforos.exemploLivro.multiplex.Mutiplex",
+      "projectName": "Concorrente_f61fcab9"
+    },
+    {
+      "type": "java",
+      "name": "Mutex",
+      "request": "launch",
+      "mainClass": "semaforos.exemploLivro.mutex.Mutex",
+      "projectName": "Concorrente_f61fcab9"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/orlando/Concorrente/semaforos/exemploLivro",
+      "program": "/home/orlando/Concorrente/semaforos/exemploLivro/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
